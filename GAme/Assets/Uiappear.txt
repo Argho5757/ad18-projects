@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+Public Canvas Canvas; 
+ 
+Void OnTriggerEnter(collider :Collider)
+{
+    Canvas.enabled = true;
+}
+
+Void OnTriggerExit()
+{
+    Canvas.enabled = false;
+}
